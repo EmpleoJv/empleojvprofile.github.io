@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.first_Page{
+    background-image: url('../IMAGE/pexels-michał-osiński-3454270.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.logo_Name{
+    font-family: 'Orbitron', sans-serif;
+    color: #DB8A22;
+    text-shadow: 3px 1px black;
+    font-size: 50px;
+    letter-spacing: 5px;
+    margin-left: 20%;
+    padding-top: 1%;
+}
+
+.first_Page_Partition{
+    display: flex;
+    color: #DB8A22;
+    margin-left: 10%;
+    margin-top: -28%;
+}
+.first_Page_Partition .name_Image{
+    max-width: 35%;  
+    box-shadow: 5px 5px #DB8A22;
+}
+.first_Page_Partition .first_Page_Item2 hr{
+    width: 60%;
+    margin-left: 50px;
+    background-color: #DB8A22;
+
+}
+.first_Page_Partition .first_Page_Item2 h1{
+    color: Black;
+    font-family: 'Secular One', sans-serif;
+    font-size: 80px;
+    letter-spacing: 1px;
+    margin-left: 150px;
+}
+
+.first_Page_Partition .first_Page_Item2 h2{
+    color: black;
+    font-size: 40px;
+    letter-spacing: 2px;
+    margin-left: 180px;
+    font-family: 'Questrial', sans-serif;
+    opacity: 0.7;
+
+}
+
+.first_Page_Partition .first_Page_Item2 p{
+    color: whitesmoke;
+    text-shadow: 4px 4px black;
+    margin: 10px;
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 30px;
+    margin-left: 150px;
+    margin-right: 70px;
+
+}   
+.sidebar{
+    height: 100%;
+    width: 0;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    padding-top: 60px;
+
+}
+.sidebar ul{
+    transform: rotate(-90deg);
+    display: flex;
+    margin: 500px 0 0 50px;
+    
+}
+.sidebar ul li {
+    list-style: none;
+    margin-right: 20px;
+}
+.sidebar ul li a{
+    font-family: 'Orbitron', sans-serif;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #DB8A22;
+    text-shadow: 2px 2px black;
+}
+
+.social_Logo{
+    /* border: solid 2px black; */
+    display: flex;
+    justify-content: space-between;
+    
+    margin-right: 700px;
+    margin-left: 150px;
+    margin-top: 100px;
+
+}
+
+.social_Logo img{
+    width: 30%;
+    text-shadow: 2px 2px white;
+}
+
+
+.second_Page{
+    min-height: 100vh;
+}
